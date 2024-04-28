@@ -105,7 +105,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# LOL!
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# https://stackoverflow.com/questions/40533829/why-does-north-dakota-has-a-separate-timezone-namespace-in-the-olson-database
+TIME_ZONE = 'America/North_Dakota/Beulah'
 
 USE_I18N = True
 

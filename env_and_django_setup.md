@@ -56,3 +56,5 @@ From [here](https://docs.djangoproject.com/en/5.0/intro/tutorial01/).
 * `python manage.py runserver`
   * Serves this 👇 up by default:
     * `./.venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html`
+
+
