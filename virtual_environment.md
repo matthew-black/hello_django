@@ -50,3 +50,7 @@ From [here](https://docs.djangoproject.com/en/5.0/intro/tutorial01/).
           asgi.py
           wsgi.py
     ```
+
+#### Start the Server:
+
+* `python manage.py runserver`
