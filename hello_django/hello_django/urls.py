@@ -15,8 +15,17 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("polls/", include("polls.urls")), # 👈 polls.urls points to the
+                                           #    urls.py file inside the Django
+                                           #    project's root folder. (AKA: Where
+                                           #    manage.py is.) So, urls.py within
+                                           #    hello_django is like a top-level
+                                           #    router that forwards requests to
+                                           #    instances of Django apps.
+                                           #    "polls/" is the URL, and it can be
+                                           #    named anything we'd like.
 ]
